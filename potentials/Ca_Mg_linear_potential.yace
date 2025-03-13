@@ -1,0 +1,34 @@
+elements: [Ca, Mg]
+E0: [0, 0]
+deltaSplineBins: 0.001
+embeddings:
+  0: {ndensity: 1, FS_parameters: [1, 1], npoti: FinnisSinclairShiftedScaled, rho_core_cutoff: 100000, drho_core_cutoff: 250}
+  1: {ndensity: 1, FS_parameters: [1, 1], npoti: FinnisSinclairShiftedScaled, rho_core_cutoff: 100000, drho_core_cutoff: 250}
+bonds:
+  [0, 0]: {nradmax: 1, lmax: 0, nradbasemax: 4, radbasename: SBessel, radparameters: [5.25], radcoefficients: [[[1, 0, 0, 0]]], prehc: 0, lambdahc: 0, rcut: 6, dcut: 0.01, rcut_in: 0, dcut_in: 0, inner_cutoff_type: distance}
+  [0, 1]: {nradmax: 1, lmax: 0, nradbasemax: 3, radbasename: SBessel, radparameters: [5.25], radcoefficients: [[[1, 0, 0]]], prehc: 0, lambdahc: 0, rcut: 6, dcut: 0.01, rcut_in: 0, dcut_in: 0, inner_cutoff_type: distance}
+  [1, 0]: {nradmax: 1, lmax: 0, nradbasemax: 3, radbasename: SBessel, radparameters: [5.25], radcoefficients: [[[1, 0, 0]]], prehc: 0, lambdahc: 0, rcut: 6, dcut: 0.01, rcut_in: 0, dcut_in: 0, inner_cutoff_type: distance}
+  [1, 1]: {nradmax: 1, lmax: 0, nradbasemax: 4, radbasename: SBessel, radparameters: [5.25], radcoefficients: [[[1, 0, 0, 0]]], prehc: 0, lambdahc: 0, rcut: 6, dcut: 0.01, rcut_in: 0, dcut_in: 0, inner_cutoff_type: distance}
+functions:
+  0:
+    - {mu0: 0, rank: 1, ndensity: 1, num_ms_combs: 1, mus: [0], ns: [1], ls: [0], ms_combs: [0], ctildes: [4.0770437650846576]}
+    - {mu0: 0, rank: 1, ndensity: 1, num_ms_combs: 1, mus: [0], ns: [2], ls: [0], ms_combs: [0], ctildes: [-3.8588481297692701]}
+    - {mu0: 0, rank: 1, ndensity: 1, num_ms_combs: 1, mus: [0], ns: [3], ls: [0], ms_combs: [0], ctildes: [0.92000495598677079]}
+    - {mu0: 0, rank: 1, ndensity: 1, num_ms_combs: 1, mus: [0], ns: [4], ls: [0], ms_combs: [0], ctildes: [-0.23405093328134211]}
+    - {mu0: 0, rank: 1, ndensity: 1, num_ms_combs: 1, mus: [1], ns: [1], ls: [0], ms_combs: [0], ctildes: [3.0998179921136155]}
+    - {mu0: 0, rank: 1, ndensity: 1, num_ms_combs: 1, mus: [1], ns: [2], ls: [0], ms_combs: [0], ctildes: [-3.3413248021131974]}
+    - {mu0: 0, rank: 1, ndensity: 1, num_ms_combs: 1, mus: [1], ns: [3], ls: [0], ms_combs: [0], ctildes: [1.1198996648014155]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [0, 0], ns: [1, 1], ls: [0, 0], ms_combs: [0, 0], ctildes: [0.23110656025054613]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [0, 1], ns: [1, 1], ls: [0, 0], ms_combs: [0, 0], ctildes: [0.162622862089289]}
+    - {mu0: 0, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [1, 1], ns: [1, 1], ls: [0, 0], ms_combs: [0, 0], ctildes: [0.37485087658479693]}
+  1:
+    - {mu0: 1, rank: 1, ndensity: 1, num_ms_combs: 1, mus: [0], ns: [1], ls: [0], ms_combs: [0], ctildes: [3.0998182972840347]}
+    - {mu0: 1, rank: 1, ndensity: 1, num_ms_combs: 1, mus: [0], ns: [2], ls: [0], ms_combs: [0], ctildes: [-3.3413250581869707]}
+    - {mu0: 1, rank: 1, ndensity: 1, num_ms_combs: 1, mus: [0], ns: [3], ls: [0], ms_combs: [0], ctildes: [1.1198997740917647]}
+    - {mu0: 1, rank: 1, ndensity: 1, num_ms_combs: 1, mus: [1], ns: [1], ls: [0], ms_combs: [0], ctildes: [3.270365832094317]}
+    - {mu0: 1, rank: 1, ndensity: 1, num_ms_combs: 1, mus: [1], ns: [2], ls: [0], ms_combs: [0], ctildes: [-3.6839506237042134]}
+    - {mu0: 1, rank: 1, ndensity: 1, num_ms_combs: 1, mus: [1], ns: [3], ls: [0], ms_combs: [0], ctildes: [1.8970766228700811]}
+    - {mu0: 1, rank: 1, ndensity: 1, num_ms_combs: 1, mus: [1], ns: [4], ls: [0], ms_combs: [0], ctildes: [-0.55193726233553175]}
+    - {mu0: 1, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [0, 0], ns: [1, 1], ls: [0, 0], ms_combs: [0, 0], ctildes: [0.45146025302186105]}
+    - {mu0: 1, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [0, 1], ns: [1, 1], ls: [0, 0], ms_combs: [0, 0], ctildes: [0.15124882211788121]}
+    - {mu0: 1, rank: 2, ndensity: 1, num_ms_combs: 1, mus: [1, 1], ns: [1, 1], ls: [0, 0], ms_combs: [0, 0], ctildes: [0.10984275186273598]}
